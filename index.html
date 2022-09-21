@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Calcular IMC</h1>
+    <p>
+      <label for="inserirPeso">Peso (Kg):</label></br>
+      <input id="inserirPeso" type="number" value="" step="0.1" />
+    </p>
+    <p>
+      <label for="inserirAltura">Altura (cm):</label></br>
+      <input id="inserirAltura" type="number" value="" />
+    </p>
+    <button id="botao">Calcular IMC</button>
+
+    <p id="resultado">Seu IMC é: <strong id="imcCalculado"></strong></p>
+    <p id ="faixa"> sua faixa é: <strong id ="faixaCalculada"></strong></p>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>

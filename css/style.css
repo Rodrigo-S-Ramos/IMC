@@ -1,0 +1,16 @@
+body {
+  background-color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+#resultado {
+  margin-top: 50px;
+}
+
+input {
+  width: 150px;
+}
+label {
+  font-family: 'jetBrains Mono';
+}
